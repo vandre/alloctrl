@@ -27,12 +27,12 @@
         —
       {:else }
         {#if type === PropType.ADDRESS }
-          <a class="text-link" href={ `https://preview.allo.info/account/${ value }` } target="_blank" >
+          <a class="text-link" href={ `https://allo.info/account/${ value }` } target="_blank" >
             { tinifyAddress(String(value)) }
           </a>
 
         {:else if type === PropType.BLOCK }
-          <a class="text-link" href={ `https://preview.allo.info/block/${ value }` } target="_blank" >
+          <a class="text-link" href={ `https://allo.info/block/${ value }` } target="_blank" >
             #{ value }
           </a>
 
